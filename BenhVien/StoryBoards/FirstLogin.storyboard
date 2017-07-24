@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First Login View Controller-->
+        <scene sceneID="WUG-hV-U2d">
+            <objects>
+                <viewController storyboardIdentifier="FirstLoginViewController" id="LD3-0u-uEF" customClass="FirstLoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pb0-LZ-0Ng"/>
+                        <viewControllerLayoutGuide type="bottom" id="rBd-SC-9z0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KHF-6h-LEZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="first-login-bg" translatesAutoresizingMaskIntoConstraints="NO" id="YsY-RI-3x5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REK-ZB-VWY">
+                                <rect key="frame" x="27" y="592" width="321" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Đăng nhập hoặc đăng kí bằng Email" backgroundImage="btn-email">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ui8-Y9-3aB">
+                                <rect key="frame" x="27" y="537" width="321" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <inset key="titleEdgeInsets" minX="35" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Đăng nhập hoặc đăng kí bằng Facebook" backgroundImage="btn-facebook"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rBd-SC-9z0" firstAttribute="top" secondItem="REK-ZB-VWY" secondAttribute="bottom" constant="30" id="1su-G0-Vmi"/>
+                            <constraint firstAttribute="trailing" secondItem="REK-ZB-VWY" secondAttribute="trailing" constant="27" id="AqK-6D-Ihe"/>
+                            <constraint firstItem="YsY-RI-3x5" firstAttribute="top" secondItem="KHF-6h-LEZ" secondAttribute="top" id="I5X-ZM-yts"/>
+                            <constraint firstItem="REK-ZB-VWY" firstAttribute="top" secondItem="Ui8-Y9-3aB" secondAttribute="bottom" constant="10" id="LOK-OR-h49"/>
+                            <constraint firstAttribute="trailing" secondItem="Ui8-Y9-3aB" secondAttribute="trailing" constant="27" id="TrX-aa-r7y"/>
+                            <constraint firstItem="REK-ZB-VWY" firstAttribute="leading" secondItem="KHF-6h-LEZ" secondAttribute="leading" constant="27" id="XDb-c9-2J6"/>
+                            <constraint firstItem="Ui8-Y9-3aB" firstAttribute="leading" secondItem="KHF-6h-LEZ" secondAttribute="leading" constant="27" id="Zx5-T1-855"/>
+                            <constraint firstAttribute="trailing" secondItem="YsY-RI-3x5" secondAttribute="trailing" id="dHG-Ny-smU"/>
+                            <constraint firstItem="YsY-RI-3x5" firstAttribute="leading" secondItem="KHF-6h-LEZ" secondAttribute="leading" id="k5D-tQ-Q6W"/>
+                            <constraint firstItem="rBd-SC-9z0" firstAttribute="top" secondItem="YsY-RI-3x5" secondAttribute="bottom" id="zym-1p-y46"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Drv-mY-seO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="239" y="-2482"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn-email" width="320" height="45"/>
+        <image name="btn-facebook" width="320" height="45"/>
+        <image name="first-login-bg" width="375" height="667"/>
+    </resources>
+</document>

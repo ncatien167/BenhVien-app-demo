@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		6FF887AE6095002581B6BCB9 /* Pods_BenhVien.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD5B18CAA0385B71B244D55 /* Pods_BenhVien.framework */; };
 		EE2948831F2619A400819087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2948821F2619A400819087 /* main.m */; };
-		EE2948861F2619A400819087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2948851F2619A400819087 /* AppDelegate.m */; };
 		EE2948891F2619A400819087 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2948881F2619A400819087 /* ViewController.m */; };
-		EE29488C1F2619A400819087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE29488A1F2619A400819087 /* Main.storyboard */; };
 		EE29488E1F2619A400819087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE29488D1F2619A400819087 /* Assets.xcassets */; };
 		EE2948911F2619A400819087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE29488F1F2619A400819087 /* LaunchScreen.storyboard */; };
+		EE29489D1F2623CD00819087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE29489C1F2623CD00819087 /* AppDelegate.m */; };
+		EE2948A31F26253100819087 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2948A21F26253100819087 /* BaseViewController.m */; };
+		EE2948A61F26272500819087 /* BaseTapBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2948A51F26272500819087 /* BaseTapBarController.m */; };
+		EE2948A91F26274200819087 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2948A81F26274200819087 /* BaseNavigationController.m */; };
+		EE2948AC1F26290600819087 /* FirstLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2948AB1F26290600819087 /* FirstLogin.storyboard */; };
+		EE2948AF1F26293800819087 /* FirstLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2948AE1F26293800819087 /* FirstLoginViewController.m */; };
+		EE2948BD1F2634D700819087 /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2948B41F2634D700819087 /* UIAlertController+Blocks.m */; };
+		EE2948BE1F2634D700819087 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2948B61F2634D700819087 /* UIColor+Hex.m */; };
+		EE2948BF1F2634D700819087 /* UITextField+Padding.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2948B81F2634D700819087 /* UITextField+Padding.m */; };
+		EE2948C01F2634D700819087 /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2948BA1F2634D700819087 /* UIView+Nib.m */; };
+		EE2948C11F2634D700819087 /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2948BC1F2634D700819087 /* UIViewController+Storyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,14 +31,32 @@
 		BAD5B18CAA0385B71B244D55 /* Pods_BenhVien.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BenhVien.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE29487E1F2619A400819087 /* BenhVien.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BenhVien.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2948821F2619A400819087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EE2948841F2619A400819087 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EE2948851F2619A400819087 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EE2948871F2619A400819087 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EE2948881F2619A400819087 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EE29488B1F2619A400819087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE29488D1F2619A400819087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE2948901F2619A400819087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE2948921F2619A400819087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE29489B1F2623CD00819087 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE29489C1F2623CD00819087 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE2948A11F26253100819087 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		EE2948A21F26253100819087 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		EE2948A41F26272500819087 /* BaseTapBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTapBarController.h; sourceTree = "<group>"; };
+		EE2948A51F26272500819087 /* BaseTapBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTapBarController.m; sourceTree = "<group>"; };
+		EE2948A71F26274200819087 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		EE2948A81F26274200819087 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		EE2948AB1F26290600819087 /* FirstLogin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstLogin.storyboard; sourceTree = "<group>"; };
+		EE2948AD1F26293800819087 /* FirstLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLoginViewController.h; sourceTree = "<group>"; };
+		EE2948AE1F26293800819087 /* FirstLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLoginViewController.m; sourceTree = "<group>"; };
+		EE2948B31F2634D700819087 /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
+		EE2948B41F2634D700819087 /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
+		EE2948B51F2634D700819087 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		EE2948B61F2634D700819087 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		EE2948B71F2634D700819087 /* UITextField+Padding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Padding.h"; sourceTree = "<group>"; };
+		EE2948B81F2634D700819087 /* UITextField+Padding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Padding.m"; sourceTree = "<group>"; };
+		EE2948B91F2634D700819087 /* UIView+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
+		EE2948BA1F2634D700819087 /* UIView+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Nib.m"; sourceTree = "<group>"; };
+		EE2948BB1F2634D700819087 /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
+		EE2948BC1F2634D700819087 /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +109,12 @@
 		EE2948801F2619A400819087 /* BenhVien */ = {
 			isa = PBXGroup;
 			children = (
-				EE2948841F2619A400819087 /* AppDelegate.h */,
-				EE2948851F2619A400819087 /* AppDelegate.m */,
+				EE2948B01F2634D700819087 /* Libraries */,
+				EE2948AA1F26288E00819087 /* StoryBoards */,
+				EE29489E1F26250500819087 /* ViewController */,
+				EE29489A1F2623CD00819087 /* App */,
 				EE2948871F2619A400819087 /* ViewController.h */,
 				EE2948881F2619A400819087 /* ViewController.m */,
-				EE29488A1F2619A400819087 /* Main.storyboard */,
 				EE29488D1F2619A400819087 /* Assets.xcassets */,
 				EE29488F1F2619A400819087 /* LaunchScreen.storyboard */,
 				EE2948921F2619A400819087 /* Info.plist */,
@@ -101,6 +129,87 @@
 				EE2948821F2619A400819087 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE29489A1F2623CD00819087 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EE29489B1F2623CD00819087 /* AppDelegate.h */,
+				EE29489C1F2623CD00819087 /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EE29489E1F26250500819087 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EE29489F1F26250500819087 /* Base */,
+				EE2948A01F26250500819087 /* UI */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EE29489F1F26250500819087 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EE2948A11F26253100819087 /* BaseViewController.h */,
+				EE2948A21F26253100819087 /* BaseViewController.m */,
+				EE2948A41F26272500819087 /* BaseTapBarController.h */,
+				EE2948A51F26272500819087 /* BaseTapBarController.m */,
+				EE2948A71F26274200819087 /* BaseNavigationController.h */,
+				EE2948A81F26274200819087 /* BaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EE2948A01F26250500819087 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EE2948AD1F26293800819087 /* FirstLoginViewController.h */,
+				EE2948AE1F26293800819087 /* FirstLoginViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EE2948AA1F26288E00819087 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				EE2948AB1F26290600819087 /* FirstLogin.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE2948B01F2634D700819087 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EE2948B11F2634D700819087 /* Categories */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		EE2948B11F2634D700819087 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EE2948B21F2634D700819087 /* UIAlertController-Blocks */,
+				EE2948B51F2634D700819087 /* UIColor+Hex.h */,
+				EE2948B61F2634D700819087 /* UIColor+Hex.m */,
+				EE2948B71F2634D700819087 /* UITextField+Padding.h */,
+				EE2948B81F2634D700819087 /* UITextField+Padding.m */,
+				EE2948B91F2634D700819087 /* UIView+Nib.h */,
+				EE2948BA1F2634D700819087 /* UIView+Nib.m */,
+				EE2948BB1F2634D700819087 /* UIViewController+Storyboard.h */,
+				EE2948BC1F2634D700819087 /* UIViewController+Storyboard.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		EE2948B21F2634D700819087 /* UIAlertController-Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				EE2948B31F2634D700819087 /* UIAlertController+Blocks.h */,
+				EE2948B41F2634D700819087 /* UIAlertController+Blocks.m */,
+			);
+			path = "UIAlertController-Blocks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,8 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE2948911F2619A400819087 /* LaunchScreen.storyboard in Resources */,
+				EE2948AC1F26290600819087 /* FirstLogin.storyboard in Resources */,
 				EE29488E1F2619A400819087 /* Assets.xcassets in Resources */,
-				EE29488C1F2619A400819087 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +334,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2948BD1F2634D700819087 /* UIAlertController+Blocks.m in Sources */,
+				EE2948AF1F26293800819087 /* FirstLoginViewController.m in Sources */,
+				EE2948A61F26272500819087 /* BaseTapBarController.m in Sources */,
+				EE2948C01F2634D700819087 /* UIView+Nib.m in Sources */,
 				EE2948891F2619A400819087 /* ViewController.m in Sources */,
-				EE2948861F2619A400819087 /* AppDelegate.m in Sources */,
+				EE2948C11F2634D700819087 /* UIViewController+Storyboard.m in Sources */,
+				EE2948BE1F2634D700819087 /* UIColor+Hex.m in Sources */,
+				EE2948A91F26274200819087 /* BaseNavigationController.m in Sources */,
+				EE2948A31F26253100819087 /* BaseViewController.m in Sources */,
 				EE2948831F2619A400819087 /* main.m in Sources */,
+				EE29489D1F2623CD00819087 /* AppDelegate.m in Sources */,
+				EE2948BF1F2634D700819087 /* UITextField+Padding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EE29488A1F2619A400819087 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE29488B1F2619A400819087 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EE29488F1F2619A400819087 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
