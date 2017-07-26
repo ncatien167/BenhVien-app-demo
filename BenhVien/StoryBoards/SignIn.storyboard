@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="8aA-e9-GpP">
+            <objects>
+                <viewController id="hO4-5V-RSG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vVE-rN-ybO"/>
+                        <viewControllerLayoutGuide type="bottom" id="KVP-zO-xge"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RrD-KG-0tF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="HVF-xi-rS8">
+                                <rect key="frame" x="91" y="30" width="192" height="29"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <segments>
+                                    <segment title="Đăng kí"/>
+                                    <segment title="Đăng nhập"/>
+                                </segments>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="van-wR-f2N">
+                                <rect key="frame" x="0.0" y="78" width="375" height="70"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Tên đăng nhập hoặc email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HPl-vw-sCG">
+                                        <rect key="frame" x="8" y="8" width="367" height="17"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mật khẩu" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qHf-CT-1WO">
+                                        <rect key="frame" x="8" y="45" width="367" height="17"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="HPl-vw-sCG" firstAttribute="leading" secondItem="van-wR-f2N" secondAttribute="leading" constant="8" id="0gV-gU-GyW"/>
+                                    <constraint firstItem="qHf-CT-1WO" firstAttribute="leading" secondItem="van-wR-f2N" secondAttribute="leading" constant="8" id="3km-RS-mUV"/>
+                                    <constraint firstItem="HPl-vw-sCG" firstAttribute="top" secondItem="van-wR-f2N" secondAttribute="top" constant="8" id="P26-vT-JC8"/>
+                                    <constraint firstAttribute="height" constant="70" id="Tiw-AV-uwd"/>
+                                    <constraint firstAttribute="trailing" secondItem="HPl-vw-sCG" secondAttribute="trailing" id="Txc-OZ-BtL"/>
+                                    <constraint firstAttribute="trailing" secondItem="qHf-CT-1WO" secondAttribute="trailing" id="ksb-CQ-N9e"/>
+                                    <constraint firstAttribute="bottom" secondItem="qHf-CT-1WO" secondAttribute="bottom" constant="8" id="w5e-5N-CRL"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJj-6h-2YA">
+                                <rect key="frame" x="128" y="168" width="119" height="30"/>
+                                <state key="normal" title="Quên mật khẩu?">
+                                    <color key="titleColor" red="0.87544029497253106" green="0.23511216123926443" blue="0.2652828284492067" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93717277050018311" green="0.93730741739273071" blue="0.93714338541030884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="van-wR-f2N" firstAttribute="top" secondItem="HVF-xi-rS8" secondAttribute="bottom" constant="20" id="AfU-8Q-Tx6"/>
+                            <constraint firstAttribute="trailing" secondItem="van-wR-f2N" secondAttribute="trailing" id="IUG-JX-ZIL"/>
+                            <constraint firstAttribute="trailing" secondItem="HVF-xi-rS8" secondAttribute="trailing" constant="92" id="MXL-KW-B0f"/>
+                            <constraint firstItem="TJj-6h-2YA" firstAttribute="leading" secondItem="RrD-KG-0tF" secondAttribute="leading" constant="128" id="XT3-WK-eaL"/>
+                            <constraint firstItem="van-wR-f2N" firstAttribute="leading" secondItem="RrD-KG-0tF" secondAttribute="leading" id="ZP2-dU-FdW"/>
+                            <constraint firstItem="HVF-xi-rS8" firstAttribute="leading" secondItem="RrD-KG-0tF" secondAttribute="leading" constant="91" id="ZXs-fi-B6b"/>
+                            <constraint firstItem="HVF-xi-rS8" firstAttribute="top" secondItem="vVE-rN-ybO" secondAttribute="bottom" constant="10" id="cLt-m6-0Gn"/>
+                            <constraint firstItem="TJj-6h-2YA" firstAttribute="top" secondItem="van-wR-f2N" secondAttribute="bottom" constant="20" id="wM9-0d-Oje"/>
+                            <constraint firstAttribute="trailing" secondItem="TJj-6h-2YA" secondAttribute="trailing" constant="128" id="zkJ-Vf-dyQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jg4-Sb-va6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-460" y="48.125937031484263"/>
+        </scene>
+    </scenes>
+</document>
