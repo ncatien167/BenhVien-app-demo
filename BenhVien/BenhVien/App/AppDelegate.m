@@ -24,7 +24,7 @@
 }
 - (void)setupFirstLoginScreen{
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    FirstLoginViewController *vc = (FirstLoginViewController *)[FirstLoginViewController instanceFromStoryboardName:@"Login"];
+    FirstLoginViewController *vc = (FirstLoginViewController *)[FirstLoginViewController instanceFromStoryboardName:@"FirstLogin"];
     BaseNavigationController *nav = [[BaseNavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
