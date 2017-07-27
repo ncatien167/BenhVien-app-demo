@@ -7,7 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "UIViewController+Storyboard.h"
 @interface BaseViewController : ViewController
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
+@property (weak, nonatomic) IBOutlet UIView *SignUpContentView;
+@property (weak, nonatomic) IBOutlet UIView *SignInContentView;
 
 @end

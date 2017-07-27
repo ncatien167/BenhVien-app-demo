@@ -7,7 +7,7 @@
 //
 
 #import "FirstLoginViewController.h"
-
+#import "LoginViewController.h"
 @interface FirstLoginViewController ()
 
 @end
@@ -26,5 +26,10 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     self.navigationController.navigationBarHidden = true;
+}
+- (IBAction)emailButtonPressed:(id)sender{
+    LoginViewController *vc = (LoginViewController *)[LoginViewController instanceFromStoryboardName:@"FirstLogin"];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self.navigationController presentViewController:nav animated:true completion:nil];
 }
 @end
